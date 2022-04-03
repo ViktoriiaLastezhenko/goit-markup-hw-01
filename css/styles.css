@@ -7,7 +7,7 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-/*_______________________HEADER_____________________*/
+/*_______________________HEADER-index.html_____________________*/
 .logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -116,4 +116,68 @@ span {
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+/*_______________________SECTION_TEAM_INDEX.HTML_____________________*/
+.team {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.positions {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*_______________________FOOTER_INDEX.HTML_____________________*/
+.address-footer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.mail-footer,
+.tel-footer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+footer {
+  background-color: #2f303a;
 }
