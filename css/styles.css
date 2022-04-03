@@ -4,6 +4,9 @@
 .link {
   text-decoration: none;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+}
 /*_______________________HEADER_____________________*/
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -47,9 +50,8 @@ span {
 .header-contacts-link:focus {
   color: #2196f3;
 }
-/*_______________________HERO_____________________*/
+/*_______________________HERO_INDEX.HTML_____________________*/
 .h1 {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -66,7 +68,6 @@ span {
   background-color: #2f303a;
 }
 .modal-btn {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -83,9 +84,8 @@ span {
   text-align: center;
   cursor: pointer;
 }
-/*_______________________SECTION_INFO_____________________*/
+/*_______________________SECTION_INFO_INDEX.HTML_____________________*/
 .h3-sector-info {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -96,7 +96,6 @@ span {
   color: #212121;
 }
 .section-info-item {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -107,9 +106,8 @@ span {
 
   color: #757575;
 }
-/*_______________________SECTION_PHOTO_INFO_____________________*/
+/*_______________________SECTION_PHOTO_INFO_INDEX.HTML_____________________*/
 .photo-info-h2 {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
