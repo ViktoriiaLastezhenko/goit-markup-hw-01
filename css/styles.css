@@ -154,7 +154,7 @@ span {
 }
 /*_______________________FOOTER_INDEX.HTML_____________________*/
 .address-footer {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -167,7 +167,6 @@ span {
 }
 .mail-footer,
 .tel-footer {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -180,4 +179,39 @@ span {
 }
 footer {
   background-color: #2f303a;
+}
+/*_______________________SECTION-PORTFOLIO_____________________*/
+.portfolio-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.img-name,
+.img-description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.img-description {
+  color: #757575;
 }
