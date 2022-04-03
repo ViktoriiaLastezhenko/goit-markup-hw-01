@@ -137,7 +137,7 @@ span {
 
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-main);
 }
 /*_______________________FOOTER_INDEX.HTML_____________________*/
 .address-footer {
@@ -164,6 +164,9 @@ span {
 }
 footer {
   background-color: #2f303a;
+}
+.span-footer {
+  color: #ffffff;
 }
 /*_______________________SECTION-PORTFOLIO_____________________*/
 .portfolio-btn {
