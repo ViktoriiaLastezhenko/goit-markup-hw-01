@@ -1,17 +1,23 @@
+/*_____________________GLOBAL-STYLES_____________________*/
+
+:root {
+  --color-main: #757575;
+}
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+  color: inherit;
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--color-main);
+  font-weight: 700;
 }
 /*_______________________HEADER-index.html_____________________*/
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
@@ -25,7 +31,6 @@ span {
 .menu-item,
 .menu-link {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -34,13 +39,10 @@ span {
 }
 .header-contacts-link {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: #757575;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -52,7 +54,6 @@ span {
 }
 /*_______________________HERO_INDEX.HTML_____________________*/
 .h1 {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -68,8 +69,6 @@ span {
   background-color: #2f303a;
 }
 .modal-btn {
-  font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 188% */
@@ -86,8 +85,6 @@ span {
 }
 /*_______________________SECTION_INFO_INDEX.HTML_____________________*/
 .h3-sector-info {
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -96,20 +93,15 @@ span {
   color: #212121;
 }
 .section-info-item {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
-
-  color: #757575;
 }
 /*_______________________SECTION_PHOTO_INFO_INDEX.HTML_____________________*/
 .photo-info-h2 {
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -119,8 +111,6 @@ span {
 }
 /*_______________________SECTION_TEAM_INDEX.HTML_____________________*/
 .team {
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -129,7 +119,6 @@ span {
   color: #212121;
 }
 .team-list {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -141,7 +130,6 @@ span {
   color: #212121;
 }
 .positions {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -149,13 +137,11 @@ span {
 
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 /*_______________________FOOTER_INDEX.HTML_____________________*/
 .address-footer {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -167,7 +153,6 @@ span {
 }
 .mail-footer,
 .tel-footer {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -182,7 +167,6 @@ footer {
 }
 /*_______________________SECTION-PORTFOLIO_____________________*/
 .portfolio-btn {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -200,18 +184,18 @@ footer {
   background-color: #2196f3;
   color: #ffffff;
 }
-.img-name,
-.img-description {
-  font-style: normal;
-  font-weight: 700;
+.img-name {
   font-size: 18px;
   line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
-
   color: #212121;
 }
 .img-description {
-  color: #757575;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
 }
